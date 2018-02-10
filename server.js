@@ -25,7 +25,7 @@ app.set("view engine", "handlebars");
 app.use(express.static("public"));
 
 // Database configuration with mongoose
-mongoose.connect("mongodb://localhost/myapp");
+mongoose.connect("mongodb://scrapper:1qazxsw2@ds231758.mlab.com:31758/nprscrapper");
 var db = mongoose.connection;
 
 // Show any mongoose errors
